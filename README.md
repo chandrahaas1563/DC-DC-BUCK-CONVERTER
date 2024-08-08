@@ -36,7 +36,8 @@ This connects the driver IC to the output obtained from the TL494 board. The cir
 A Buck Converter, or a step-down converter, is a DC-DC converter that steps down the voltage from its input to its output.
 
 ![Screenshot 2024-08-08 191145](https://github.com/user-attachments/assets/a6068b47-a1a6-41a9-b300-d3d385a25ba6)
-![buck_converter](https://github.com/user-attachments/assets/456e0eee-a214-4d7b-b810-a6ef14f56a59)
+
+![buck_converter](https://github.com/user-attachments/assets/f490e202-5ef3-4427-a440-900cd9d5c56b)
 
 ### Implementation Steps
 * **Circuit Design**: Design the circuit according to the specifications. Ensure that the components are rated for the required voltages and currents.
@@ -49,14 +50,18 @@ A Buck Converter, or a step-down converter, is a DC-DC converter that steps down
 * **Inductor Current & Switch Voltage**: The inductor Current & switch voltage is shown in blue.
 #### Waveforms in CCM
 * The resistance is around 20 ohms for stable graphs; correspondingly, we get the current as 1.0 A. The output voltage varies between 9-10V (due to nonidealities).
+
 ![ccm](https://github.com/user-attachments/assets/ce9ed58c-50f1-469d-9df3-db629a79b63e)
 
 #### Waveforms in DCM
 * We obtained DCM around 3kHz frequency.
+
 ![dcm](https://github.com/user-attachments/assets/d3b9c4eb-9fda-462a-ba82-b3ef844cbeda)
 
 #### Switch Voltage
+
 ![switch_voltage](https://github.com/user-attachments/assets/4869adbf-6188-44d2-b62b-c2926a069661)
+
 ### Results and Observations
 * Voltage Conversion: Successfully converted a 15V input to a stable 10V output with an output current of 1A.
 * Mode Control: Demonstrated effective control and operation in both CCM and DCM.
