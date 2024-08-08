@@ -20,18 +20,18 @@ The project includes generating waveforms of inductor current and switch voltage
 * Rheostat: To change load resistance.
 * Oscilloscope: To observe waveforms.
 ### Key Concepts
-#### Continuous Conduction Mode (CCM)
+* #### Continuous Conduction Mode (CCM)
 CCM occurs when the current through the inductor never falls to zero during the switching cycle. This mode is characterized by continuous current flow in the inductor.
-#### Discontinuous Conduction Mode (DCM)
+* #### Discontinuous Conduction Mode (DCM)
 DCM occurs when the current through the inductor falls to zero during part of the switching cycle. This mode is characterized by intermittent current flow in the inductor.
 ### Circuit Design
-#### TL494 PWM generator IC
+* #### TL494 PWM generator IC
 The TL494 board generates the pulses for the DC-DC PE converters. Here is the connection diagram for the same:
 IMAGE
-#### Interface circuit to driver IC
+* #### Interface circuit to driver IC
 This connects the driver IC to the output obtained from the TL494 board. The circuit diagram for the same is shown below. 
 IMAGE
-#### Buck Converter Circuit
+* #### Buck Converter Circuit
 A Buck Converter, or a step-down converter, is a DC-DC converter that steps down the voltage from its input to its output. 
 IMAGE
 ### Implementation Steps
