@@ -27,7 +27,7 @@ DCM occurs when the current through the inductor falls to zero during part of th
 ### Circuit Design
 * #### TL494 PWM generator IC
 The TL494 board generates the pulses for the DC-DC PE converters. Here is the connection diagram for the same:
-IMAGE
+![PWM(TL494)](https://github.com/user-attachments/assets/ed417843-2331-4d2c-89ca-3398a6cf3470)
 * #### Interface circuit to driver IC
 This connects the driver IC to the output obtained from the TL494 board. The circuit diagram for the same is shown below. 
 IMAGE
