@@ -47,7 +47,24 @@ A Buck Converter, or a step-down converter, is a DC-DC converter that steps down
 * **Gate Pulses**: The gate pulse (PWM output) waveform is shown in yellow.
 * **Inductor Current & Switch Voltage**: The inductor Current & switch voltage is shown in blue.
 #### Waveforms in CCM
-* 
+* The resistance is around 20 ohms for stable graphs; correspondingly, we get the current as 1.0 A. The output voltage varies between 9-10V (due to nonidealities).
+![ccm](https://github.com/user-attachments/assets/ce9ed58c-50f1-469d-9df3-db629a79b63e)
+
+#### Waveforms in DCM
+* We obtained DCM around 3kHz frequency.
+![dcm](https://github.com/user-attachments/assets/d3b9c4eb-9fda-462a-ba82-b3ef844cbeda)
+
+#### Switch Voltage
+![switch_voltage](https://github.com/user-attachments/assets/4869adbf-6188-44d2-b62b-c2926a069661)
+### Results and Observations
+* Voltage Conversion: Successfully converted a 15V input to a stable 10V output with an output current of 1A.
+* Mode Control: Demonstrated effective control and operation in both CCM and DCM.
+* Precise PWM Control: The TL494 module provided precise PWM control, ensuring efficient and reliable performance of the buck converter.
+### Conclusion
+This project effectively showcased the ability to design, implement, and test a DC-DC buck converter using the TL494 module. The experience gained from this project will be valuable for future endeavors in power electronics and control systems.
+### Complete Setup
+![complete setup](https://github.com/user-attachments/assets/1986e3cb-5a9c-470c-a79e-2a0bf7b1006e)
+
 
 
 
