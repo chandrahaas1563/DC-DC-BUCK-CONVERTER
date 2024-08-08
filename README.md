@@ -1,7 +1,7 @@
 ## DC-DC Buck Converter
 ### Project Overview
 This project involves the design and hardware implementation of a Buck Converter using the TL494 PWM generator IC. This was a group project that was done in the Power Electronics Course.
-Here is the report link of this project: [https://drive.google.com/drive/u/4/my-drive](https://drive.google.com/file/d/1VeTw_GjvWegOfnroiy3ab9VH4SDVxKcP/view?usp=sharing)
+Here is the report link of this project: https://drive.google.com/file/d/1VeTw_GjvWegOfnroiy3ab9VH4SDVxKcP/view?usp=sharing
 ### Problem Statement
 Design a Buck Converter with the following specifications:
 * Input Voltage: 15 V
