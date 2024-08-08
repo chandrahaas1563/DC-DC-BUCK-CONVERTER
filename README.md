@@ -9,7 +9,7 @@ Design a Buck Converter with the following specifications:
 * Output Current: 1 A
 
 The project includes generating waveforms of inductor current and switch voltage in Continuous Conduction Mode (CCM) and demonstrating Discontinuous Conduction Mode (DCM) by changing the load resistance.
-### Components and Equipment <br/>
+### Components and Equipment <br>
 * Drive Circuit (TL494 PWM generator IC ): Generates the pulse width modulated signal to control the transistor.
 * MOSFET: Acts as a high-speed switch controlled by the PWM.
 * Diode: Provides a path for the inductor current when the switch is off.
