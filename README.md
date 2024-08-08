@@ -27,13 +27,16 @@ DCM occurs when the current through the inductor falls to zero during part of th
 ### Circuit Design
 * #### TL494 PWM generator IC
 The TL494 board generates the pulses for the DC-DC PE converters. Here is the connection diagram for the same:
-          ![PWM(TL494)](https://github.com/user-attachments/assets/ed417843-2331-4d2c-89ca-3398a6cf3470)
+![PWM(TL494)](https://github.com/user-attachments/assets/ed417843-2331-4d2c-89ca-3398a6cf3470)
 * #### Interface circuit to driver IC
 This connects the driver IC to the output obtained from the TL494 board. The circuit diagram for the same is shown below. 
-IMAGE
+![Screenshot 2024-08-08 191120](https://github.com/user-attachments/assets/c6dddce7-a381-4c9b-a536-b909715ed304)
+
 * #### Buck Converter Circuit
 A Buck Converter, or a step-down converter, is a DC-DC converter that steps down the voltage from its input to its output. 
-IMAGE
+![Screenshot 2024-08-08 191145](https://github.com/user-attachments/assets/cf9417f4-315b-4294-b7b0-849caf47a567)
+![buck_converter](https://github.com/user-attachments/assets/456e0eee-a214-4d7b-b810-a6ef14f56a59)
+
 ### Implementation Steps
 * **Circuit Design**: Design the circuit according to the specifications. Ensure that the components are rated for the required voltages and currents.
 * **Component Selection**: Select appropriate components such as MOSFETs, diodes, inductors, and capacitors.
