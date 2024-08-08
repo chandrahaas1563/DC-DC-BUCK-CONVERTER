@@ -35,9 +35,7 @@ This connects the driver IC to the output obtained from the TL494 board. The cir
 * #### Buck Converter Circuit
 A Buck Converter, or a step-down converter, is a DC-DC converter that steps down the voltage from its input to its output.
 
-![Screenshot 2024-08-08 191145](https://github.com/user-attachments/assets/a6068b47-a1a6-41a9-b300-d3d385a25ba6)
-
-![buck_converter](https://github.com/user-attachments/assets/f490e202-5ef3-4427-a440-900cd9d5c56b)
+![Screenshot 2024-08-08 191145](https://github.com/user-attachments/assets/a6068b47-a1a6-41a9-b300-d3d385a25ba6)![buck_converter](https://github.com/user-attachments/assets/f490e202-5ef3-4427-a440-900cd9d5c56b)
 
 ### Implementation Steps
 * **Circuit Design**: Design the circuit according to the specifications. Ensure that the components are rated for the required voltages and currents.
