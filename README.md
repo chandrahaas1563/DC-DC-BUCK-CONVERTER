@@ -4,7 +4,6 @@ This project involves the design and hardware implementation of a Buck Converter
 <p>Here is the report link of this project: https://drive.google.com/file/d/1VeTw_GjvWegOfnroiy3ab9VH4SDVxKcP/view?usp=sharing</p>
 
 ### Problem Statement
-_
 Design a Buck Converter with the following specifications:
 * Input Voltage: 15 V
 * Output Voltage: 10 V
